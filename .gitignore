@@ -1,0 +1,7 @@
+*.egg-info
+*.pyc
+gurobi.log
+.DS_Store
+.idea
+plots
+*__pycache__
