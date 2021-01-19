@@ -47,7 +47,7 @@ def iclr_experiments(gpu_id, cpus, n_splits=1, modulo_do=0, use_autostrat=False)
 
 if __name__ == "__main__":
 
-    # Example: python scripts/anderson/run_anderson_bab_cifar.py --gpu_id 0 --cpus 0,5 --experiment iclr --modulo 2 --modulo_do 0
+    # Example: python scripts/anderson/run_anderson_bab_cifar.py --gpu_id 0 --cpus 0-5 --experiment iclr --modulo 2 --modulo_do 0
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--modulo', type=int, help='Numbers of jobs to split the dataset over (e.g., one per GPU).',

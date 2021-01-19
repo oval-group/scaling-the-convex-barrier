@@ -24,7 +24,7 @@ def run_incomplete_verification(gpu, cpus, experiment):
 
 if __name__ == "__main__":
 
-    # Example: python scripts/run_anderson_incomplete.py --gpu_id 0 --cpus 0,3 --experiment cifar_sgd
+    # Example: python scripts/run_anderson_incomplete.py --gpu_id 0 --cpus 0-3 --experiment cifar_sgd
     # Example: python scripts/run_anderson_incomplete.py --gpu_id 1 --cpus 5-8 --experiment cifar_madry
 
     # Note: the experiments take several days to terminate. For each of the three experiments, consider terminating the

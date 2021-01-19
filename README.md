@@ -95,9 +95,9 @@ The paper's experiments can be replicated as follows (adapting hardware paramete
 
 ```bash
 # complete verification -- In the paper, Gurobi uses 6 CPU cores
-python scripts/run_anderson_bab_cifar.py --gpu_id 0 --cpus 0,5
+python scripts/run_anderson_bab_cifar.py --gpu_id 0 --cpus 0-5
 # incomplete verification -- the paper uses 4 CPU cores
-python scripts/run_anderson_incomplete.py --gpu_id 0 --cpus 0,3 --experiment all
+python scripts/run_anderson_incomplete.py --gpu_id 0 --cpus 0-3 --experiment all
 ```
 
 and then plotted as:
